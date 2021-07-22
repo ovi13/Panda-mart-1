@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda-Mart</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/35953004fb.js" crossorigin="anonymous"></script>
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
@@ -23,12 +24,11 @@
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#Products">Products</a>
+                    </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Items</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Subscribe</a>
+                    <a class="nav-link" href="#Subscribe">Subscribe</a>
                   </li>
                   </ul>
                 <form class="d-flex">
@@ -98,13 +98,194 @@
         </section>
     </header>
     
-    <main>
+<main>
+      <!-- catagories -->
+      <section class="container my-5 catagories">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border bg-dark d-flex align-items-center justify-content-between rounded-3">
+                <h1 class="text-white">Groceries</h1>
+                <img width="34%" src="Images/catagories/grocery.png" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border bg-light d-flex align-items-center justify-content-between
+            rounded-3">
+                <h1 class="text-black">Vegetables</h1>
+                <img width="38%" src="Images/catagories/veg.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="p-3 border bg-dark d-flex align-items-center justify-content-between
+            rounded-3">
+                <h1 class="text-white">Medicines</h1>
+                <img width="38%" src="Images/catagories/med-2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
 
-    </main>
+      <!-- items  -->
+      <section class="container" id="Products">
+        <h1>Products</h1>
+        <h2>Grocery</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card border-0 shadow-lg h-100">
+              <img src="Images/Products/Grocery/fresh-soybean-oil-5-liter.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Fresh Soybean Oil 1-5 liter</h5>
+              </h5>
+              <h5>Tk.600</h5>
+              </div>
+              <div class="m-3">
+                  <button class="btn btn button-style">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow-lg  h-100">
+              <img src="Images/Products/Grocery/Harpic.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Harpic
+              </h5>
+              <h5>Tk.300</h5>
+              </div>
+              <div class="m-3">
+                <button class="btn btn button-style">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0 shadow-lg  h-100">
+              <img height="350px" src="Images/Products/Grocery/colgate-total-whitening-toothpaste-2021.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Colgate Total Whitening Toothpaste 2021
+              </h5>
+              <h5>Tk.120</h5>
+              </div>
+              <div class="m-3">
+                <button class="btn btn button-style">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="container" id="Shoes">
+      <h2>Vegetables</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <div class="col">
+          <div class="card border-0 shadow-lg h-100">
+            <img src="Images/Products/Vegetables/Cabbage.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cabbage 1kg</h5>
+            </h5>
+            <h5>Tk.60</h5>
+            </div>
+            <div class="m-3">
+                <button class="btn btn button-style">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 shadow-lg  h-100">
+            <img src="Images/Products/Vegetables/Cauliflower.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cauliflower 1kg
+              </h5> 
+            <h5>Tk.80</h5>
+            </div>
+            <div class="m-3">
+              <button class="btn btn button-style">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 shadow-lg  h-100">
+            <img height="350px" src="Images/Products/Vegetables/Tomato_je.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Tomato 1kg
+            </h5>
+            <h5>Tk.100</h5>
+            </div>
+            <div class="m-3">
+              <button class="btn btn button-style">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <section class="container" id="Shoes">
+    <h2>Medicines</h2>
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      <div class="col">
+        <div class="card border-0 shadow-lg h-100">
+          <img src="Images/Products/Medicine/Acetram.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Acetram 1 Packet</h5>
+          </h5>
+          <h5>Tk.20</h5>
+          </div>
+          <div class="m-3">
+              <button class="btn btn button-style">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0 shadow-lg  h-100">
+          <img height="350px" src="Images/Products/Medicine/Seclo-20.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Seclo-20 1 Packet
+            </h5> 
+          <h5>Tk.50</h5>
+          </div>
+          <div class="m-3">
+            <button class="btn btn button-style">Buy Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0 shadow-lg  h-100">
+          <img height="350px" src="Images/Products/Medicine/Surgical-mask.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Surgical-mask 1 Box
+          </h5>
+          <h5>Tk.1000</h5>
+          </div>
+          <div class="m-3">
+            <button class="btn btn button-style">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- Subscribe  -->
+<section style="height: 300px;" class="my-5 panda-bg container" id="Subscribe">
+  <div class="container w-50 d-flex flex-column justify-content-center align-items-center ">
+      <h1>JOIN WITH US</h1>
+      <p>Get updates on sales, specials and more<p>
+      <input type="text" placeholder="Your Email"> 
+      <br>
+      <button class="btn btn button-style">Submit</button>
+      <!-- <div class="d-flex justify-content-center align-items-center"> -->
+        <div>
+          <h1>Social Sites</h1>
+        </div>
+      <div>
+        <i class="fab fa-facebook-square"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-youtube"></i>
+      </div>
+      </div>
+
+  </div>
+</section>
+</main>
     
-    <footer>
-
-    </footer>
+<footer class="mt-5 text-center">
+  <p><small>©2020. Panda-Mart. All rights reserved. Dhaka,Bangladesh.</small></p>
+</footer>
 
     
     <!-- bootstrap script  -->
